@@ -1,8 +1,8 @@
 # Copy Image and URL in Preview
 
-该插件将会在预览模式下悬浮本地图片时自动复制图片路径到剪贴板
+该插件将会在预览模式下右键本地图片时复制图片路径到剪贴板
 
-This plugin will copy the absolute path of the local image onmouseover in reading view (formerly preview mode) in Obsidian.
+This plugin will copy the absolute path of the local image context menu in reading view (formerly preview mode) in Obsidian.
 
 ## Installation
 
@@ -27,7 +27,7 @@ This plugin will copy the absolute path of the local image onmouseover in readin
 ### From GitHub
 
 1. Download the Latest Release from the Releases section of the GitHub Repository
-2. Put files to your vault's plugins folder: `<vault>/.obsidian/plugins/live2d-widget-obsidian`  
+2. Put files to your vault's plugins folder: `<vault>/.obsidian/plugins`  
 3. Reload Obsidian
 4. If prompted about Safe Mode, you can disable safe mode and enable the plugin.
    Otherwise, head to Settings, third-party plugins, make sure safe mode is off and
@@ -38,7 +38,7 @@ This plugin will copy the absolute path of the local image onmouseover in readin
 ***
 
 1. 从GitHub仓库的Releases下载最新版本
-2. 把文件放在对应Vault的插件文件夹下：`<vault>/.obsidian/plugins/live2d-widget-obsidian`
+2. 把文件放在对应Vault的插件文件夹下：`<vault>/.obsidian/plugins`
 3. 重新加载Obsidian
 4. 如果出现有关安全模式的提示，则可以禁用安全模式并启用插件。否则，请转到`设置`→`第三方插件`，确保关闭安全模式，然后从`第三方插件`启用插件
 

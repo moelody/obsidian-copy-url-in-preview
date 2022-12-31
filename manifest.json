@@ -3,7 +3,7 @@
 	"name": "Copy Local Image Path in Preview",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Automatically copy Local Image Path in preview mode",
+	"description": "copy Local Image Path context menu in preview mode",
 	"author": "moelody",
 	"authorUrl": "https://github.com/moelody",
 	"isDesktopOnly": true

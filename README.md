@@ -1,43 +1,45 @@
 # Copy Image and URL in Preview
 
-This plugin creates a Copy Image, Copy URL and Open PDF externally context menu in preview mode in [Obsidian](https://obsidian.md/).
+该插件将会在预览模式下悬浮本地图片时自动复制图片路径到剪贴板
 
-This makes copying URLs in prewiew like it is in edit mode by deafult. For copying images in edit mode check out [Ozan's Image in Editor Plugin](https://github.com/ozntel/oz-image-in-editor-obsidian)
-
-Copying images:
-
-[Copying images video](https://user-images.githubusercontent.com/1992842/132140547-fead74c1-4bec-489a-945c-f28cbba43493.mp4)
-
-Copying URLs:
-
-![Copying URLs on desktop](https://user-images.githubusercontent.com/5298006/125515738-8fb2143d-6502-46d3-a1b8-57b025211c2f.gif)
-
-Opening PDFs externally:
-
-![Opening PDFs externally on desktop](https://user-images.githubusercontent.com/5298006/171170626-5a94f5dc-61fc-4661-a9f2-38a0fb0181f5.gif)
-
-All features work on mobile, but were only tested on Android:
-
-![Copying URLs on Android](https://user-images.githubusercontent.com/5298006/125515758-bdf77074-a58c-4a6d-affa-88d031991ab2.gif)
-
-## Compatibility
-
-The plugin was tested in Obsidian v0.11.13 and subsequent versions, but probably works with older versions.
+This plugin will copy the absolute path of the local image onmouseover in reading view (formerly preview mode) in Obsidian.
 
 ## Installation
 
-You can install the plugin via the Community Plugins tab within Obsidian.
+### From Obsidian
 
-You can also manually copy from releases to your `.obsidian/plugins/copy-url-in-preview` folder.
+1. Open `Settings` > `Third-party plugin`
+2. Make sure Safe mode is **off**
+3. Click `Browse community plugins`
+4. Search for this plugin
+5. Click `Install`
+6. Once installed, enable this plugin and close the community plugins window and the plugin is ready to use.
 
-## Attributions
+***
 
-Thank you to the makers of the [Tag Wrangler plugin](https://github.com/pjeby/tag-wrangler), as it was a great starting point for working with context menus in Obsidian.
+1. 打开`设置`>`第三方插件`
+2. 确保安全模式为`关闭`
+3. 点击`浏览社区插件`
+4. 搜索此插件
+5. 点击`安装`
+6. 安装完成后，启用该插件并关闭安装窗口，插件即可使用
 
-[Copying](https://github.com/NomarCub/obsidian-copy-url-in-preview/pull/2) [images](https://github.com/NomarCub/obsidian-copy-url-in-preview/pull/3) developed by [luckman212](https://github.com/luckman212).  
-[Android image sharing](https://github.com/NomarCub/obsidian-copy-url-in-preview/issues/5) developed by [mnaoumov](https://github.com/mnaoumov).  
-[Open PDF externally](https://github.com/NomarCub/obsidian-copy-url-in-preview/issues/9) feature developed by [mnaoumov](https://github.com/mnaoumov).
+### From GitHub
 
-Original plugin by [NomarCub](https://github.com/NomarCub)
+1. Download the Latest Release from the Releases section of the GitHub Repository
+2. Put files to your vault's plugins folder: `<vault>/.obsidian/plugins/live2d-widget-obsidian`  
+3. Reload Obsidian
+4. If prompted about Safe Mode, you can disable safe mode and enable the plugin.
+   Otherwise, head to Settings, third-party plugins, make sure safe mode is off and
+   enable the plugin from there.
 
-If you like this plugin you can support me on PayPal here: [![Paypal](https://img.shields.io/badge/paypal-nomarcub-yellow?style=social&logo=paypal)](https://paypal.me/nomarcub)
+> Note: The `.obsidian` folder may be hidden. On macOS, you should be able to press `Command+Shift+Dot` to show the folder in Finder.
+
+***
+
+1. 从GitHub仓库的Releases下载最新版本
+2. 把文件放在对应Vault的插件文件夹下：`<vault>/.obsidian/plugins/live2d-widget-obsidian`
+3. 重新加载Obsidian
+4. 如果出现有关安全模式的提示，则可以禁用安全模式并启用插件。否则，请转到`设置`→`第三方插件`，确保关闭安全模式，然后从`第三方插件`启用插件
+
+> 注意，`.obsidian`文件夹为隐藏文件夹，在macOS的Finder下可以按`Command+Shift+.`以显示隐藏文件夹
